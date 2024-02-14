@@ -3,10 +3,10 @@ import Gallery from "./components/Gallery";
 
 function App() {
   return (
-    <>
-      <h1>gallery app</h1>
+    <div className="app">
+      <h1 className="heading">gallery app</h1>
       <Gallery />
-    </>
+    </div>
   );
 }
 

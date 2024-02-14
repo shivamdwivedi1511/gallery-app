@@ -1,10 +1,24 @@
+.app{
+  width: 80%;
+  margin: auto;
+  .heading{
+  text-transform: capitalize;
+  text-align: center;
+  padding: 24px;
+}
 .gallery {
+  margin: 24px 0;
   display: flex;
   flex-wrap: wrap;
+  gap: 6px;
   .card {
+    display: flex;
+    align-items: stretch;
     img {
-      height: 400px;
-      width: 400px;
+      height: 250px;
+      width: 250px;
+      border-radius: 8px;
     }
   }
+}
 }
